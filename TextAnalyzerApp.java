@@ -88,33 +88,3 @@ public class TextAnalyzerApp {
 
 
 
-
-//
-//File theRaven = new File("theRaven.txt");
-//Scanner poemScanner = null;
-//
-//try {
-//	poemScanner = new Scanner(new BufferedReader(new FileReader("theRaven.txt")));
-//	
-//	while(poemScanner.hasNextLine()) {
-//		String Raven = poemScanner.nextLine();
-//		System.out.println(Raven);	
-//	}
-//		
-//} catch (FileNotFoundException e) {
-//
-//	System.out.println("File not found, Please verify file path is entered correctly");
-//	
-//} catch (IOException e) {
-//	System.out.println("Problem reading the file" + theRaven.getName());
-//}
-//finally {
-//	
-//	
-//	if(poemScanner != null) {
-//		poemScanner.close();
-//	}
-//} // end try block
-
-
-
